@@ -1,0 +1,47 @@
+body{
+	background-image: url(http://cachorrosfofos.com.br/wp-content/uploads/2014/05/2.gif);
+}
+body section div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+header{
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container{
+width: 700px ;
+height: 700px;
+margin: 5px;
+
+}
+.item{
+width: 200px ;
+height: 200px;
+border-radius: 50%;
+background-color: silver;
+transition: transform 1s;
+}
+
+.item:hover {
+	transform: scale(1.5);
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+}
